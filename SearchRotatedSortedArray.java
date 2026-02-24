@@ -34,7 +34,7 @@ public class SearchRotatedSortedArray {
     }
     public static void main(String args[]){
         int nums[] = {2,5,6,0,0,1,2};
-        int target  = 0;
+        int target  = 7;
         System.out.println(searchRotatedSortedArray(nums, target));
     }
 }
