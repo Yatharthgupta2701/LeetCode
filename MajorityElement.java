@@ -16,7 +16,7 @@ public class MajorityElement {
         return candidate;
     }
     public static void main(String args[]){
-        int nums[] = {3,2,3};
+        int nums[] = {2,2,1,1,1,2,2};
         System.out.println(majorityElement(nums));
     }
 }
