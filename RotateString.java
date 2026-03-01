@@ -9,7 +9,7 @@ public class RotateString {
     }
     public static void main(String args[]){
         String s = "abcde";
-        String goal = "abced";
+        String goal = "abcedb";
         System.out.println(rotateString(s, goal));
     }
 }
