@@ -8,7 +8,7 @@ public class RotateString {
         return doubled.contains(goal);
     }
     public static void main(String args[]){
-        String s = "abcde";
+        String s = "abcdeb";
         String goal = "abcedb";
         System.out.println(rotateString(s, goal));
     }
