@@ -20,7 +20,7 @@ public class RemoveOuterParan {
         return result.toString();
     }
     public static void main(String args[]){
-        String s = "(()())(())";
+        String s = "(()())(()))";
         System.out.println(removeOuterParan(s));
     }
 }
