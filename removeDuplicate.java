@@ -14,7 +14,7 @@ public class removeDuplicate {
         return i+1;
     }
     public static void main(String args[]){
-        int nums[] = {1,1,2};
+        int nums[] = {1,1,2,2,3,4};
         System.out.println(RemoveDuplicate(nums));
 
     }
